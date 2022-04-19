@@ -31,3 +31,29 @@ body{
     font-size: 2rem; /*Tamaño de fuente*/
   
 }
+
+.contenedor{
+    width: 120rem;
+    margin:0 auto 0 auto; /* forma resumida de declarar los margenes*/
+
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+
+}
+
+.navegacion-principal{
+    padding:1rem; /* altura de la barra de navegacion*/
+    
+
+    
+}
+
+.navegacion-principal a{
+    color:var(--blanco);
+    text-decoration: none;
+    
+    
+    
+}
