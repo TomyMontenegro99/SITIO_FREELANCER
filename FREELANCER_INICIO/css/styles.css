@@ -45,15 +45,20 @@ body{
 
 .navegacion-principal{
     padding:1rem; /* altura de la barra de navegacion*/
-    
-
-    
+    display:flex;
+    justify-content:space-between; /*mover el contenido horizontalmente*/
 }
 
 .navegacion-principal a{
     color:var(--blanco);
     text-decoration: none;
-    
-    
-    
+    font-size: 2rem;
+    font-weight: 700 ;
 }
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+
